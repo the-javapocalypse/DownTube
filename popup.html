@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+      .container {
+        max-height: 600px;
+        min-height: 300px;
+        width: 411px;
+        background: white;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 100%;
+      }
+      
+      #download-audio{
+        margin: auto;
+        margin-left: 6px;
+      }
+      .header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+      }
+      .header h3, h6 {
+        position: relative;
+        top: -5px;
+        left: 10px;
+      }
+      .main{
+        font-family: 'Montserrat', sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body >
+
+    <div class="container main">
+
+        <div class="header">
+          
+          <div class="row">
+
+            <div class="col-md-6" >
+                <br>
+              <img src="favicon.png" class="img-responsive"> 
+            </div>
+
+            <div class="col-md-4" style="">
+              <h3>DownTube</h3>
+              <h6> The easiest way to download and convert YouTube videos to high quality MP3 and MP4 for free.</h6>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+        <div id="err">
+        <br><br><br>
+          <div class="alert alert-danger">
+              <h4>Please visit YouTube to use DownTube.</h4>
+          </div>
+        </div>
+
+        <div id="links" class="container">
+          <br><br>
+          <h4>Download Link 1</h4>
+          <div style="margin-left: 1.5px;">
+            <iframe  id="link" scrolling="no" style="width:100%;min-width:200px;max-width:350px;height:57px;border:0;overflow:hidden;" src="https://www.download-mp3-youtube.com/api/?api_key=MzA5NjcxMTMz&format=mp3&video_id=qOvw6t-cxOs">
+            </iframe>
+            <br><br>
+          </div>
+          
+          <h4>Download Link 2 (Ads May Appear)</h4>
+          <iframe id="link1" style="width:100%;min-width:200px;max-width:350px;height:57px;border:0;overflow:hidden;" scrolling="no" src="https://ytbapi.com/dl.php?link=https://www.youtube.com/watch?v=&format=mp3&text=fff&color=009688">
+          </iframe>
+
+          <br><br>
+
+          <h4>Download Link 3 (Ads May Appear)</h4>
+          <iframe id="link2" style="width:100%;min-width:200px;max-width:350px;height:57px;border:0;overflow:hidden;" scrolling="no" src="https://ytbapi.com/dl.php?link=https://www.youtube.com/watch?v=&format=mp4&text=fff&color=009688">
+          </iframe>
+        
+        </div>
+
+        <br><br><br>
+    </div>
+    
+
+    <script src="/scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="/scripts/extension.js" type="text/javascript"></script>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "DownTube",
+    "description": "The easiest way to download and convert YouTube to MP3 and MP4.",
+    "version": "1.0",
+    "homepage_url": "https://github.com/the-javapocalypse",
+    "browser_action": {
+        "default_icon": "favicon.png",
+        "default_popup": "popup.html",
+        "default_title": "DownTube"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+    "page": "bg.html"
+    }
+}
+
